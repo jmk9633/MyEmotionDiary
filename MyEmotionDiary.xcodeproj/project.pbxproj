@@ -3,19 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98DC1FCEA8E481E34CA88FFF /* Pods_MyEmotionDiary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4A09A3A478C9602816628ED /* Pods_MyEmotionDiary.framework */; };
 		F9F888F024D2957300A12B70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F888EF24D2957300A12B70 /* AppDelegate.swift */; };
 		F9F888F224D2957300A12B70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F888F124D2957300A12B70 /* SceneDelegate.swift */; };
 		F9F888F424D2957300A12B70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F888F324D2957300A12B70 /* ViewController.swift */; };
 		F9F888F724D2957300A12B70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F888F524D2957300A12B70 /* Main.storyboard */; };
 		F9F888F924D2957500A12B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9F888F824D2957500A12B70 /* Assets.xcassets */; };
 		F9F888FC24D2957500A12B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F888FA24D2957500A12B70 /* LaunchScreen.storyboard */; };
+		F9F8890424D2959800A12B70 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9F8890324D2959800A12B70 /* Setting.storyboard */; };
+		F9F8890724D2964800A12B70 /* SettingMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F8890624D2964800A12B70 /* SettingMainViewController.swift */; };
+		F9F8890924D2DCBD00A12B70 /* SettingMainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F8890824D2DCBD00A12B70 /* SettingMainTableViewCell.swift */; };
+		F9F8890C24D2E31800A12B70 /* SettingMainHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F8890A24D2E31800A12B70 /* SettingMainHeaderTableViewCell.swift */; };
+		F9F8890D24D2E31800A12B70 /* SettingMainHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F9F8890B24D2E31800A12B70 /* SettingMainHeaderTableViewCell.xib */; };
+		F9F8890F24D2E8CE00A12B70 /* SettingBackUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F8890E24D2E8CE00A12B70 /* SettingBackUpViewController.swift */; };
+		F9F8891124D2E90E00A12B70 /* SettingFontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F8891024D2E90E00A12B70 /* SettingFontViewController.swift */; };
+		F9F8891324D2E92700A12B70 /* SettingLockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F8891224D2E92700A12B70 /* SettingLockViewController.swift */; };
+		F9F8891524D2E93B00A12B70 /* SettingDiaryAlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F8891424D2E93B00A12B70 /* SettingDiaryAlarmViewController.swift */; };
+		F9F8891724D2E95000A12B70 /* SettingInfoVersionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F8891624D2E95000A12B70 /* SettingInfoVersionViewController.swift */; };
+		F9F8891924D2E96100A12B70 /* SettingOpenLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F8891824D2E96100A12B70 /* SettingOpenLibraryViewController.swift */; };
+		F9F8891B24D2EA5800A12B70 /* SettingFontTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F8891A24D2EA5800A12B70 /* SettingFontTableViewCell.swift */; };
+		F9F8891D24D2EA7300A12B70 /* SettingLockTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F8891C24D2EA7300A12B70 /* SettingLockTableViewCell.swift */; };
+		F9F8891F24D2EAA300A12B70 /* SettingDiaryAlarmTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F8891E24D2EAA300A12B70 /* SettingDiaryAlarmTableViewCell.swift */; };
+		F9F8892124D2F8AF00A12B70 /* SettingEditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9F8892024D2F8AF00A12B70 /* SettingEditProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39D8A185A5A3D0A4DF4ACB6D /* Pods-MyEmotionDiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyEmotionDiary.debug.xcconfig"; path = "Target Support Files/Pods-MyEmotionDiary/Pods-MyEmotionDiary.debug.xcconfig"; sourceTree = "<group>"; };
+		97793CFE5A0C1C2B3A26E0CE /* Pods-MyEmotionDiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyEmotionDiary.release.xcconfig"; path = "Target Support Files/Pods-MyEmotionDiary/Pods-MyEmotionDiary.release.xcconfig"; sourceTree = "<group>"; };
+		A4A09A3A478C9602816628ED /* Pods_MyEmotionDiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyEmotionDiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F888EC24D2957300A12B70 /* MyEmotionDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyEmotionDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9F888EF24D2957300A12B70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9F888F124D2957300A12B70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +43,21 @@
 		F9F888F824D2957500A12B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9F888FB24D2957500A12B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9F888FD24D2957500A12B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9F8890324D2959800A12B70 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		F9F8890624D2964800A12B70 /* SettingMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingMainViewController.swift; path = MyEmotionDiary/SettingMainViewController.swift; sourceTree = SOURCE_ROOT; };
+		F9F8890824D2DCBD00A12B70 /* SettingMainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingMainTableViewCell.swift; path = MyEmotionDiary/SettingMainTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		F9F8890A24D2E31800A12B70 /* SettingMainHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingMainHeaderTableViewCell.swift; path = MyEmotionDiary/SettingMainHeaderTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		F9F8890B24D2E31800A12B70 /* SettingMainHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SettingMainHeaderTableViewCell.xib; path = MyEmotionDiary/SettingMainHeaderTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		F9F8890E24D2E8CE00A12B70 /* SettingBackUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingBackUpViewController.swift; path = MyEmotionDiary/SettingBackUpViewController.swift; sourceTree = SOURCE_ROOT; };
+		F9F8891024D2E90E00A12B70 /* SettingFontViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingFontViewController.swift; path = MyEmotionDiary/SettingFontViewController.swift; sourceTree = SOURCE_ROOT; };
+		F9F8891224D2E92700A12B70 /* SettingLockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingLockViewController.swift; path = MyEmotionDiary/SettingLockViewController.swift; sourceTree = SOURCE_ROOT; };
+		F9F8891424D2E93B00A12B70 /* SettingDiaryAlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingDiaryAlarmViewController.swift; sourceTree = "<group>"; };
+		F9F8891624D2E95000A12B70 /* SettingInfoVersionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingInfoVersionViewController.swift; sourceTree = "<group>"; };
+		F9F8891824D2E96100A12B70 /* SettingOpenLibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingOpenLibraryViewController.swift; sourceTree = "<group>"; };
+		F9F8891A24D2EA5800A12B70 /* SettingFontTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingFontTableViewCell.swift; path = MyEmotionDiary/SettingFontTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		F9F8891C24D2EA7300A12B70 /* SettingLockTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingLockTableViewCell.swift; path = MyEmotionDiary/SettingLockTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		F9F8891E24D2EAA300A12B70 /* SettingDiaryAlarmTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingDiaryAlarmTableViewCell.swift; path = MyEmotionDiary/SettingDiaryAlarmTableViewCell.swift; sourceTree = SOURCE_ROOT; };
+		F9F8892024D2F8AF00A12B70 /* SettingEditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingEditProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +65,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98DC1FCEA8E481E34CA88FFF /* Pods_MyEmotionDiary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		017B1241BFCCA7F0AF381479 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39D8A185A5A3D0A4DF4ACB6D /* Pods-MyEmotionDiary.debug.xcconfig */,
+				97793CFE5A0C1C2B3A26E0CE /* Pods-MyEmotionDiary.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E605E5458B17EF1A94D739D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4A09A3A478C9602816628ED /* Pods_MyEmotionDiary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F9F888E324D2957300A12B70 = {
 			isa = PBXGroup;
 			children = (
+				F9F8890524D295F500A12B70 /* Setting */,
 				F9F888EE24D2957300A12B70 /* MyEmotionDiary */,
 				F9F888ED24D2957300A12B70 /* Products */,
+				017B1241BFCCA7F0AF381479 /* Pods */,
+				E605E5458B17EF1A94D739D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +115,33 @@
 				F9F888F124D2957300A12B70 /* SceneDelegate.swift */,
 				F9F888F324D2957300A12B70 /* ViewController.swift */,
 				F9F888F524D2957300A12B70 /* Main.storyboard */,
+				F9F8890324D2959800A12B70 /* Setting.storyboard */,
 				F9F888F824D2957500A12B70 /* Assets.xcassets */,
 				F9F888FA24D2957500A12B70 /* LaunchScreen.storyboard */,
 				F9F888FD24D2957500A12B70 /* Info.plist */,
 			);
 			path = MyEmotionDiary;
+			sourceTree = "<group>";
+		};
+		F9F8890524D295F500A12B70 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				F9F8891E24D2EAA300A12B70 /* SettingDiaryAlarmTableViewCell.swift */,
+				F9F8891C24D2EA7300A12B70 /* SettingLockTableViewCell.swift */,
+				F9F8891A24D2EA5800A12B70 /* SettingFontTableViewCell.swift */,
+				F9F8891224D2E92700A12B70 /* SettingLockViewController.swift */,
+				F9F8891424D2E93B00A12B70 /* SettingDiaryAlarmViewController.swift */,
+				F9F8891624D2E95000A12B70 /* SettingInfoVersionViewController.swift */,
+				F9F8891824D2E96100A12B70 /* SettingOpenLibraryViewController.swift */,
+				F9F8891024D2E90E00A12B70 /* SettingFontViewController.swift */,
+				F9F8890E24D2E8CE00A12B70 /* SettingBackUpViewController.swift */,
+				F9F8890A24D2E31800A12B70 /* SettingMainHeaderTableViewCell.swift */,
+				F9F8890B24D2E31800A12B70 /* SettingMainHeaderTableViewCell.xib */,
+				F9F8890824D2DCBD00A12B70 /* SettingMainTableViewCell.swift */,
+				F9F8890624D2964800A12B70 /* SettingMainViewController.swift */,
+				F9F8892024D2F8AF00A12B70 /* SettingEditProfileViewController.swift */,
+			);
+			path = Setting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +151,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F9F8890024D2957500A12B70 /* Build configuration list for PBXNativeTarget "MyEmotionDiary" */;
 			buildPhases = (
+				AB196FB6CB3E2D6C8FCF1636 /* [CP] Check Pods Manifest.lock */,
 				F9F888E824D2957300A12B70 /* Sources */,
 				F9F888E924D2957300A12B70 /* Frameworks */,
 				F9F888EA24D2957300A12B70 /* Resources */,
+				31F7542CC89956D66EF54455 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +205,78 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9F888FC24D2957500A12B70 /* LaunchScreen.storyboard in Resources */,
+				F9F8890D24D2E31800A12B70 /* SettingMainHeaderTableViewCell.xib in Resources */,
 				F9F888F924D2957500A12B70 /* Assets.xcassets in Resources */,
 				F9F888F724D2957300A12B70 /* Main.storyboard in Resources */,
+				F9F8890424D2959800A12B70 /* Setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31F7542CC89956D66EF54455 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyEmotionDiary/Pods-MyEmotionDiary-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyEmotionDiary/Pods-MyEmotionDiary-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyEmotionDiary/Pods-MyEmotionDiary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB196FB6CB3E2D6C8FCF1636 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyEmotionDiary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F9F888E824D2957300A12B70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9F8890724D2964800A12B70 /* SettingMainViewController.swift in Sources */,
 				F9F888F424D2957300A12B70 /* ViewController.swift in Sources */,
+				F9F8890924D2DCBD00A12B70 /* SettingMainTableViewCell.swift in Sources */,
+				F9F8891524D2E93B00A12B70 /* SettingDiaryAlarmViewController.swift in Sources */,
 				F9F888F024D2957300A12B70 /* AppDelegate.swift in Sources */,
+				F9F8892124D2F8AF00A12B70 /* SettingEditProfileViewController.swift in Sources */,
+				F9F8891924D2E96100A12B70 /* SettingOpenLibraryViewController.swift in Sources */,
+				F9F8890C24D2E31800A12B70 /* SettingMainHeaderTableViewCell.swift in Sources */,
 				F9F888F224D2957300A12B70 /* SceneDelegate.swift in Sources */,
+				F9F8891B24D2EA5800A12B70 /* SettingFontTableViewCell.swift in Sources */,
+				F9F8891D24D2EA7300A12B70 /* SettingLockTableViewCell.swift in Sources */,
+				F9F8891124D2E90E00A12B70 /* SettingFontViewController.swift in Sources */,
+				F9F8891724D2E95000A12B70 /* SettingInfoVersionViewController.swift in Sources */,
+				F9F8891324D2E92700A12B70 /* SettingLockViewController.swift in Sources */,
+				F9F8890F24D2E8CE00A12B70 /* SettingBackUpViewController.swift in Sources */,
+				F9F8891F24D2EAA300A12B70 /* SettingDiaryAlarmTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +418,7 @@
 		};
 		F9F8890124D2957500A12B70 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D8A185A5A3D0A4DF4ACB6D /* Pods-MyEmotionDiary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +437,7 @@
 		};
 		F9F8890224D2957500A12B70 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97793CFE5A0C1C2B3A26E0CE /* Pods-MyEmotionDiary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
